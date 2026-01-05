@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <title>UTS Logika Kalkulator Zakat</title>
+    <link rel="stylesheet" href="zakat.css">
+</head>
+<body>
+    <nav>
+        <a href="tentang.html">Tentang</a>
+        <a href="panduan.html">Panduan</a>
+        <a href="hukum.html">Hukum</a>
+        <a href="dalil.html">Dalil</a>
+        <a href="tabel.html">Tabel</a>
+        <a href="algo.html">Algoritma</a>
+    </nav>
+    <div class="container">
+        <h1>❤️❤️❤️UTS Logika Kalkulator Zakat❤️❤️❤️</h1>
+
+        
+        
+        <div id="inputEmas">
+            <label>Jumlah emas (gram):</label>
+            <input type="number" id="emas" /><br><br>
+            <label>Lama Kepemilikan (tahun):</label>
+            <input type="number" id="haul" /><br><br>
+        </div>
+
+        <div id="inputPertanian" >
+            <label>Jumlah Pertanian (kg):</label>
+            <input type="number" id="panen" /><br><br>
+        </div>
+
+        <div id="inputPenghasilan">
+            <label>Jumlah Penghasilan (rp):</label>
+            <input type="number" id="gaji" /><br><br>
+        </div>
+
+        <button onclick="cekZakat()">Cek Zakat</button>
+
+        <div class="output">
+            <p id="hasil"></p>
+            <p id="penjelasan"></p>
+        </div>
+    </div>
+
+    <!-- untuk menghubungkan ke JS -->
+    <script src="zakat.js"></script>
+</body>
+</html>
